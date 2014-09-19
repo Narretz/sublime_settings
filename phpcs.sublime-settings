@@ -1,0 +1,36 @@
+{
+    //Paths
+    "phpcs_executable_path": "",
+    "php_cs_fixer_executable_path": "",
+    "phpmd_executable_path": "",
+    "phpcs_php_prefix_path": "",
+
+    "show_debug" : true,
+    "phpcs_additional_args": {
+        "--standard": "PSR2",
+        "-n": ""
+    },
+
+    "phpcs_execute_on_save": true,
+    "phpcs_show_quick_panel": false,
+
+    "php_cs_fixer_show_quick_panel": true,
+    "php_cs_fixer_on_save": false,
+
+    // PHP Linter settings
+    // Are we going to run php -l over the file?
+    "phpcs_linter_run": false,
+
+    // Execute the linter on file save
+    "phpcs_linter_command_on_save": false,
+
+
+    "phpmd_run": false,
+    "phpmd_command_on_save": false,
+    // What args I want to pass to phpmd
+    "phpmd_additional_args": {
+        "unusedcode": ""
+    },
+
+    "phpcs_commands_to_php_prefix": ["Fixer"]
+}

@@ -1,0 +1,38 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AngularJS",
+		"BracketHighlighter",
+		"BufferScroll",
+		"ColorPicker",
+		"CSS Format",
+		"CSSTidy",
+		"DocBlockr",
+		"FileDiffs",
+		"FindKeyConflicts",
+		"Fold Comments",
+		"Git",
+		"Indent XML",
+		"Javascript Beautify",
+		"JavaScriptNext - ES6 Syntax",
+		"LESS",
+		"Markdown Preview",
+		"Missing Palette Commands",
+		"Package Control",
+		"Phpcs",
+		"Pomodoro",
+		"Select Quoted",
+		"SideBarEnhancements",
+		"StringEncode",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"Twig",
+		"View In Browser",
+		"WordHighlight"
+	]
+}

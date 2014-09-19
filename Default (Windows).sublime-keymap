@@ -1,0 +1,7 @@
+[
+   { "keys": ["ctrl+shift+x"], "command": "indentxml" },
+   { "keys" : ["ctrl+alt+s"], "command": "save_all" },
+   { "keys": ["ctrl+q"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+   { "keys": ["f12"], "command": "goto_definition" },
+   { "keys": ["ctrl+shift+."], "command": "select_quoted" }
+]

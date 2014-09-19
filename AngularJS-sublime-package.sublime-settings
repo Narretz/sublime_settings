@@ -1,0 +1,14 @@
+{
+    "exclude_dirs":[
+        "node_modules/",
+        "app/bower_components",
+        "dist",
+        ".git"
+    ],
+    "match_definitions": [
+        "controller",
+        "directive",
+        "factory",
+        "filter"
+    ]
+}
