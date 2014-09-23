@@ -3,5 +3,20 @@
    { "keys" : ["ctrl+alt+s"], "command": "save_all" },
    { "keys": ["ctrl+q"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
    { "keys": ["f12"], "command": "goto_definition" },
-   { "keys": ["ctrl+shift+."], "command": "select_quoted" }
+   { "keys": ["ctrl+shift+."], "command": "select_quoted" },
+	// Don't copy / cut empty lines
+    { "keys": ["ctrl+c"], "command": "noop", "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true },
+            { "key": "following_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true }
+        ]
+    },
+    { "keys": ["ctrl+x"], "command": "noop", "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true },
+            { "key": "following_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true }
+        ]
+    }   
 ]
