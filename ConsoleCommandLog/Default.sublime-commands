@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "Console: Log Commands On",
+        "command": "console_log_commands",
+        "args": {
+            "flag": true
+        }
+    },
+    {
+        "caption": "Console: Log Commands Off",
+        "command": "console_log_commands",
+        "args": {
+            "flag": false
+        }
+    },
+    {
+        "caption": "Console: Log Input On",
+        "command": "console_log_input",
+        "args": {
+            "flag": true
+        }
+    },
+    {
+        "caption": "Console: Log Input Off",
+        "command": "console_log_input",
+        "args": {
+            "flag": false
+        }
+    }
+]

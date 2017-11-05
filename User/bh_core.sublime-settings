@@ -1,0 +1,14 @@
+{
+  "bracket_styles": {
+    "round": {
+        "icon": "round_bracket",
+        "color": "brackethighlighter.round",
+        "style": "outline"
+    },
+    "curly": {
+        "icon": "curly_bracket",
+        "color": "brackethighlighter.curly",
+        "style": "solid"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+	"atomic_save": false,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"generator-movival-ionic/**"
+	],
+	"caret_extra_width": 1,
+	"color_scheme": "Packages/MonokaiFree/MonokaiFree.tmTheme",
+	"default_line_ending": "unix",
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"dist"
+	],
+	"font_face": "Fira Code",
+	"font_size": 10,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"AngularJS-sublime-package",
+		"Emmet",
+		"FuzzyFilePath",
+		"LESS",
+		"Markdown",
+		"Markdown Extended",
+		"Vintage",
+		"WordCount"
+	],
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_selection": true,
+	"match_tags": false,
+	"rulers":
+	[
+		100,
+		200
+	],
+	"tab_size": 2,
+	"theme": "SoDaReloaded Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"typescript_tsdk": "C:\\Users\\Martin\\AppData\\Roaming\\nvm\\v8.1.0\\node_modules\\typescript\\lib"
+}

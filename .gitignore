@@ -1,2 +1,25 @@
 *.cache
 *.last-run
+sftp/
+SublimeLinter/
+backrefs/
+markupsafe/
+"Pretty JSON/"
+python-jinja2/
+PyV8/
+SublimeLinter/
+TodoReview/
+ColorPick/
+Default.sublime-package
+mdpopups/
+pygments/
+python-markdown/
+pyyaml/
+SublimeLinter-contrib-eslint/
+TypeScript/
+Git/
+Minify/
+pymdownx/
+pytz/
+SFTP/
+"Theme - SoDaReloaded/"
