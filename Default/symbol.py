@@ -8,7 +8,6 @@ def lookup_symbol(window, symbol):
 
     index_locations = window.lookup_symbol_in_index(symbol)
     open_file_locations = window.lookup_symbol_in_open_files(symbol)
-    print(open_file_locations)
 
     def file_in_location_list(fname, locations):
         for l in locations:
@@ -188,10 +187,8 @@ def navigate_to_symbol(view, symbol, locations):
     if len(locations) == 0:
         sublime.status_message("Unable to find " + symbol)
     elif len(locations) == 1:
-        sublime.status_message('open file');
         open_location(view.window(), locations[0])
     else:
-        sublime.status_message('something else');
         window = view.window()
         window.show_quick_panel(
             items=[format_location(l) for l in locations],
@@ -298,7 +295,6 @@ class ShowDefinitions(sublime_plugin.EventListener):
         ref_links = '<br>'.join(ref_links)
 
         def on_navigate(href):
-            print('navigate')
             view.window().open_file(
                 href,
                 sublime.ENCODED_POSITION | sublime.FORCE_GROUP)

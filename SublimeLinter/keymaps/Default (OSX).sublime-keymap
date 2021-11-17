@@ -1,0 +1,35 @@
+[
+	// Lint this view
+    { "keys": ["ctrl+super+l"], "command": "sublime_linter_lint" },
+
+
+    // Show all errors
+    { "keys": ["ctrl+super+a"], "command": "sublime_linter_panel_toggle" },
+
+    // You can also trigger the line report with a keybinding:
+    // { "keys": ["ctrl+super+r"], "command": "sublime_linter_line_report" }
+
+
+    // Goto next/previous errors from your position, in the current file:
+    { "keys": ["ctrl+super+e"], "command": "sublime_linter_goto_error",
+      "args": { "direction": "next" }
+    },
+    { "keys": ["ctrl+super+shift+e"], "command": "sublime_linter_goto_error",
+      "args": { "direction": "previous" }
+    }
+    // Supported args:
+    // * direction: "previous" or "next"
+    // * count:     How many errors to jump. Defaults to 1.
+    // * wrap:      If true will jump to the top if you're on the last error
+    //              and vice versa. Defaults to False
+
+    // You can toggle all highlights super-fast
+    // { "keys": ["ctrl+super+k"],
+    //   "command": "sublime_linter_toggle_highlights"
+    // },
+
+    // To trigger a quick action
+    // { "keys": ["super+alt+a"],
+    //   "command": "sublime_linter_quick_actions"
+    // },
+]

@@ -1,0 +1,172 @@
+{
+	"auto_show_diagnostics_panel": false,
+	"show_diagnostics_severity_level": 4,
+	"diagnostics_highlight_style": "box",
+	"log_debug": true,
+	"log_stderr": true,
+	"show_symbol_action_links": true,
+	"clients":
+	{
+		// "lsp-tsserver":
+		// {
+		// 	"command":
+		// 	[
+		// 		"C:\\Users\\Martin\\dev\\lsp-tsserver\\lsp-tsserver.cmd",
+		// 		"--stdio",
+		// 		"--traceToConsole",
+		// 		"true",
+		// 		"--allowLocalPluginLoads",
+		// 	],
+		// 	"enabled": true,
+		// 	"languages":
+		// 	[
+		// 		{
+		// 			"languageId": "javascript",
+		// 			"scopes":
+		// 			[
+		// 				"source.js",
+		// 				"source.jsx"
+		// 			],
+		// 			"syntaxes":
+		// 			[
+		// 				"Packages/Babel/JavaScript (Babel).sublime-syntax",
+		// 				"Packages/JavaScript/JavaScript.sublime-syntax"
+		// 			]
+		// 		},
+		// 		{
+		// 			"languageId": "typescript",
+		// 			"scopes":
+		// 			[
+		// 				"source.ts",
+		// 				"source.tsx"
+		// 			],
+		// 			"syntaxes":
+		// 			[
+		// 				"Packages/TypeScript Syntax/TypeScript.tmLanguage"
+		// 			]
+		// 		}
+		// 	]
+		// },
+		// "typescript-language-server":
+		// {
+		// 	"command":
+		// 	[
+		// 		"typescript-language-server",
+		// 		"--stdio"
+		// 	],
+		// 	"enabled": false,
+		// 	"languages":
+		// 	[
+		// 		{
+		// 			"languageId": "javascript",
+		// 			"scopes":
+		// 			[
+		// 				"source.js",
+		// 				"source.jsx"
+		// 			],
+		// 			"syntaxes":
+		// 			[
+		// 				"Packages/Babel/JavaScript (Babel).sublime-syntax",
+		// 				"Packages/JavaScript/JavaScript.sublime-syntax"
+		// 			]
+		// 		},
+		// 		{
+		// 			"languageId": "typescript",
+		// 			"scopes":
+		// 			[
+		// 				"source.ts",
+		// 				"source.tsx"
+		// 			],
+		// 			"syntaxes":
+		// 			[
+		// 				"Packages/TypeScript Syntax/TypeScript.tmLanguage"
+		// 			]
+		// 		}
+		// 	]
+		// },
+		"vue-ls":
+		{
+			"command":
+			[
+				"C:\\Users\\Martin\\dev\\vetur\\server\\vls.cmd"
+				// "C:\\Users\\Martin\\dev\\vuter\\server\\vls.cmd"
+			],
+			"enabled": false,
+			"initializationOptions":
+			{
+				"config":
+				{
+					"css":
+					{
+					},
+					"emmet":
+					{
+					},
+					"html":
+					{
+						"suggest":
+						{
+						}
+					},
+					"javascript":
+					{
+						"format":
+						{
+						}
+					},
+					"stylusSupremacy":
+					{
+					},
+					"typescript":
+					{
+						"format":
+						{
+						}
+					},
+					"vetur":
+					{
+						"completion":
+						{
+							"autoImport": true,
+							"tagCasing": "kebab",
+							"useScaffoldSnippets": false
+						},
+						"experimental":
+						{
+							"templateInterpolationService": true
+						},
+						"format":
+						{
+							"defaultFormatter":
+							{
+								"js": "none",
+								"ts": "none"
+							},
+							"defaultFormatterOptions":
+							{
+							},
+							"scriptInitialIndent": false,
+							"styleInitialIndent": false
+						},
+						"useWorkspaceDependencies": false,
+						"validation":
+						{
+							"script": true,
+							"style": true,
+							"template": true
+						}
+					}
+				}
+			},
+			"languageId": "vue",
+			"scopes":
+			[
+				"text.html.vue"
+			],
+			"syntaxes":
+			[
+				"Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
+			]
+		}
+	}
+}

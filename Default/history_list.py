@@ -197,16 +197,13 @@ class JumpHistoryUpdater(sublime_plugin.EventListener):
                 get_jump_history_for_view(view).push_selection(view)
 
     def on_window_command(self, window, name, args):
-        # print('window command', name)
         if name == 'goto_definition' or name == 'goto_reference':
             view = window.active_view()
             if not view.settings().get('is_widget'):
                 get_jump_history(window.id()).push_selection(view)
 
     def on_deactivated(self, view):
-        # print('g_is_jumping', g_is_jumping)
         if not g_is_jumping:
-            # print('is on_deactivated', view.file_name())
             if view.settings().get('is_widget'):
                 return
             # check the property to ensure we don't add history

@@ -1,0 +1,1 @@
+{"description": "This linter plugin for SublimeLinter provides an interface to shellcheck.", "dependencies": [], "sublime_text": ">=3000", "version": "1.0.16", "platforms": ["*"], "url": "https://github.com/SublimeLinter/SublimeLinter-shellcheck"}

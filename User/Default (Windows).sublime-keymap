@@ -2,21 +2,34 @@
    { "keys": ["ctrl+shift+x"], "command": "indentxml" },
    { "keys" : ["ctrl+alt+s"], "command": "save_all" },
    { "keys": ["ctrl+q"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
-   { "keys": ["f12"], "command": "goto_definition" },
    { "keys": ["ctrl+shift+."], "command": "select_quoted" },
 	// Don't copy / cut empty lines
-    { "keys": ["ctrl+c"], "command": "noop", "context":
-        [
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true },
-            { "key": "following_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true }
-        ]
-    },
-    { "keys": ["ctrl+x"], "command": "noop", "context":
-        [
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true },
-            { "key": "following_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true }
-        ]
-    }   
+  { "keys": ["ctrl+c"], "command": "noop", "context":
+      [
+          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+          { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true },
+          { "key": "following_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true }
+      ]
+  },
+  { "keys": ["ctrl+x"], "command": "noop", "context":
+      [
+          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+          { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true },
+          { "key": "following_text", "operator": "regex_match", "operand": "^\\s*$", "match_all": true }
+      ]
+  },
+  {"keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"},
+  {"keys": ["ctrl+alt+c"], "command": "show_panel", "args": {"panel": "console"} },
+  {
+    "keys": ["f12"],
+    "command": "lsp_symbol_definition",
+    "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "source.ts, source.js"
+        }
+    ]
+  },
+  {"keys": ["ctrl+alt+r"], "command": "lsp_hover"}
 ]

@@ -1,0 +1,51 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: 'Yarn Lockfile'
+scope: text.yarnlock
+contexts:
+  main:
+    - include: comments
+    - include: resolved-url
+    - include: integrity-hashes
+    - include: package-version
+    - include: keywords
+  comments:
+    - match: '^\s*#'
+      captures:
+        0: punctuation.definition.comment
+      push:
+        - meta_scope: comment.line
+        - match: $
+          captures:
+            0: punctuation.definition.comment
+          pop: true
+  integrity-hashes:
+    - match: (integrity)\s+
+      captures:
+        1: keyword
+      push:
+        - match: \n
+          pop: true
+        - match: \S+
+          scope: constant.character
+  keywords:
+    - match: \b(dependencies|integrity|name|optionalDependencies|resolved|version)\b
+      scope: keyword
+  package-version:
+    - match: '"(?:\*|[^"a-zA-Z]*\d[^"a-zA-Z]*)"'
+      scope: entity.name.function
+    - match: (version)\s+
+      captures:
+        1: keyword
+      push:
+        - match: \n
+          pop: true
+        - match: '"?[^"]+"?'
+          scope: entity.name.function
+  resolved-url:
+    - match: '"(?=https?:)'
+      push:
+        - meta_scope: string.quoted.double
+        - match: '"'
+          pop: true

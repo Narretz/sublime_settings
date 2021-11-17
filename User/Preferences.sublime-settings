@@ -18,7 +18,7 @@
 		"generator-movival-ionic/**"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/MonokaiFree/MonokaiFree.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Quokka/MonokaiFree.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
@@ -55,16 +55,25 @@
 		"dist"
 	],
 	"font_face": "Fira Code",
-	"font_size": 10,
+	"font_size": 8,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"AngularJS-sublime-package",
+		"Color Highlighter",
 		"Emmet",
 		"FuzzyFilePath",
+		"GitGutter",
 		"LESS",
 		"Markdown",
 		"Markdown Extended",
+		"orgmode",
+		"RawLineEdit",
+		"SublimeLinter-contrib-yaml-lint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-jscs",
+		"SublimeLinter-tslint",
+		"TypeScript",
 		"Vintage",
 		"WordCount"
 	],
@@ -78,11 +87,13 @@
 	"rulers":
 	[
 		100,
-		200
+		120
 	],
+	"show_encoding": true,
+	"show_line_endings": true,
 	"tab_size": 2,
 	"theme": "SoDaReloaded Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"typescript_tsdk": "C:\\Users\\Martin\\AppData\\Roaming\\nvm\\v8.1.0\\node_modules\\typescript\\lib"
+	"update_check": false
 }
