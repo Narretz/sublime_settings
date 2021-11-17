@@ -1,7 +1,6 @@
 [
    { "keys": ["ctrl+shift+x"], "command": "indentxml" },
    { "keys" : ["ctrl+alt+s"], "command": "save_all" },
-   { "keys": ["ctrl+q"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
    { "keys": ["ctrl+shift+."], "command": "select_quoted" },
 	// Don't copy / cut empty lines
   { "keys": ["ctrl+c"], "command": "noop", "context":
