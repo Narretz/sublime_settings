@@ -18,7 +18,7 @@
 		"generator-movival-ionic/**"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Color Scheme - Quokka/MonokaiFree.tmTheme",
+	"color_scheme": "Packages/MonokaiFree/MonokaiFree.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
