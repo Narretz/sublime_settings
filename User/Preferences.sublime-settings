@@ -18,7 +18,7 @@
 		"generator-movival-ionic/**"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/MonokaiFree/MonokaiFree.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
@@ -60,22 +60,12 @@
 	"ignored_packages":
 	[
 		"AngularJS-sublime-package",
-		"Color Highlighter",
-		"Emmet",
-		"FuzzyFilePath",
-		"GitGutter",
-		"LESS",
-		"Markdown",
-		"Markdown Extended",
-		"orgmode",
 		"RawLineEdit",
 		"SublimeLinter-contrib-yaml-lint",
-		"SublimeLinter-eslint",
-		"SublimeLinter-jscs",
-		"SublimeLinter-tslint",
-		"TypeScript",
+		"TabsExtra",
+		"Twig",
 		"Vintage",
-		"WordCount"
+		"WordCount",
 	],
 	"match_brackets": false,
 	"match_brackets_angle": false,
@@ -95,5 +85,5 @@
 	"theme": "SoDaReloaded Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"update_check": false
+	"update_check": false,
 }
